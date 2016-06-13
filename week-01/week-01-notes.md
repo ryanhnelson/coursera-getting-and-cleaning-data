@@ -73,6 +73,20 @@ Helpful tips:
 This can be a Word or text file, with a section called "Study Design" describing
 data collection, and a "Code Book" section describing variables and units.
 
+### 4. The Recipe
+
+1. Ideally, a script (e.g., R, Python) that performs the operation
+ * The input is the raw data
+ * The output, is the processed data
+ * There should be no parameters in the script (i.e., no interaction required)
+
+ If scripts cannot handle every part of the step, and there are manual
+ steps required, then the "recipe" should include steps to reproduce the data
+ preparation and tidying process. *GO OVERBOARD*
+
+ The biggest research paper in favor of austerity was based on incorrect data
+ and was later retracted?
+
 ## Downloading Files
 
 
